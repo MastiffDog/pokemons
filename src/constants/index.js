@@ -1,0 +1,17 @@
+//асинхронный запрос на загрузку карточек с API: https://api.pokemontcg.io/v1/cards
+export const CARDS_START_LOADING = 'CARDS_START_LOADING';
+export const CARDS_LOADING_SUCCESFUL = 'CARDS_LOADING_SUCCESFUL';
+export const CARDS_LOADING_FAILED = 'CARDS_LOADING_FAILED';
+export const SELECTEDCARD_START_LOADING = 'SELECTEDCARD_START_LOADING';
+export const SELECTEDCARD_LOADING_SUCCESFUL = 'SELECTEDCARD_LOADING_SUCCESFUL';
+export const SELECTEDCARD_LOADING_FAILED = 'SELECTEDCARD_LOADING_FAILED';
+
+
+
+export const GET_POKEMONS ='GET_POKEMONS';
+export const GET_TRAINERS ='GET_TRAINERS';
+export const GET_ENERGY ='GET_ENERGY';
+export const GET_ALL_CARDS ='GET_ALL_CARDS';
+export const GET_CARD='GET_CARD';
+export const GO_BACK='GO_BACK';
+export const RELOAD = 'RELOAD';
